@@ -1,0 +1,869 @@
+[
+  {
+    "id": "AL",
+    "iso": "US-AL",
+    "name": "Alabama",
+    "capital": "Montgomery",
+    "center": [
+      -86.6802,
+      32.6242
+    ],
+    "flag": "al",
+    "electoralVotes": 9,
+    "nextElection": {
+      "date": "2026-11-03",
+      "label": "3 Nov 2026",
+      "official": true
+    }
+  },
+  {
+    "id": "AK",
+    "iso": "US-AK",
+    "name": "Alaska",
+    "capital": "Juneau",
+    "center": [
+      -144.4456,
+      58.4822
+    ],
+    "flag": "ak",
+    "electoralVotes": 3,
+    "nextElection": {
+      "date": "2026-11-03",
+      "label": "3 Nov 2026",
+      "official": true
+    }
+  },
+  {
+    "id": "AZ",
+    "iso": "US-AZ",
+    "name": "Arizona",
+    "capital": "Phoenix",
+    "center": [
+      -111.9289,
+      34.1687
+    ],
+    "flag": "az",
+    "electoralVotes": 11,
+    "nextElection": {
+      "date": "2026-11-03",
+      "label": "3 Nov 2026",
+      "official": true
+    }
+  },
+  {
+    "id": "AR",
+    "iso": "US-AR",
+    "name": "Arkansas",
+    "capital": "Little Rock",
+    "center": [
+      -92.1735,
+      34.752
+    ],
+    "flag": "ar",
+    "electoralVotes": 6,
+    "nextElection": {
+      "date": "2026-11-03",
+      "label": "3 Nov 2026",
+      "official": true
+    }
+  },
+  {
+    "id": "CA",
+    "iso": "US-CA",
+    "name": "California",
+    "capital": "Sacramento",
+    "center": [
+      -119.2734,
+      37.2741
+    ],
+    "flag": "ca",
+    "electoralVotes": 54,
+    "nextElection": {
+      "date": "2026-11-03",
+      "label": "3 Nov 2026",
+      "official": true
+    }
+  },
+  {
+    "id": "CO",
+    "iso": "US-CO",
+    "name": "Colorado",
+    "capital": "Denver",
+    "center": [
+      -105.551,
+      38.9993
+    ],
+    "flag": "co",
+    "electoralVotes": 10,
+    "nextElection": {
+      "date": "2026-11-03",
+      "label": "3 Nov 2026",
+      "official": true
+    }
+  },
+  {
+    "id": "CT",
+    "iso": "US-CT",
+    "name": "Connecticut",
+    "capital": "Hartford",
+    "center": [
+      -72.7633,
+      41.5187
+    ],
+    "flag": "ct",
+    "electoralVotes": 7,
+    "nextElection": {
+      "date": "2026-11-03",
+      "label": "3 Nov 2026",
+      "official": true
+    }
+  },
+  {
+    "id": "DE",
+    "iso": "US-DE",
+    "name": "Delaware",
+    "capital": "Dover",
+    "center": [
+      -75.4168,
+      39.1417
+    ],
+    "flag": "de",
+    "electoralVotes": 3,
+    "nextElection": {
+      "date": "2026-11-03",
+      "label": "3 Nov 2026",
+      "official": true
+    }
+  },
+  {
+    "id": "DC",
+    "iso": "US-DC",
+    "name": "District of Columbia",
+    "capital": "Washington, D.C.",
+    "center": [
+      -77.0134,
+      38.8925
+    ],
+    "flag": "dc",
+    "electoralVotes": 3,
+    "nextElection": {
+      "date": "2026-11-03",
+      "label": "3 Nov 2026",
+      "official": true
+    }
+  },
+  {
+    "id": "FL",
+    "iso": "US-FL",
+    "name": "Florida",
+    "capital": "Tallahassee",
+    "center": [
+      -83.8321,
+      28.0619
+    ],
+    "flag": "fl",
+    "electoralVotes": 30,
+    "nextElection": {
+      "date": "2026-11-03",
+      "label": "3 Nov 2026",
+      "official": true
+    }
+  },
+  {
+    "id": "GA",
+    "iso": "US-GA",
+    "name": "Georgia",
+    "capital": "Atlanta",
+    "center": [
+      -83.2461,
+      32.679
+    ],
+    "flag": "ga",
+    "electoralVotes": 16,
+    "nextElection": {
+      "date": "2026-11-03",
+      "label": "3 Nov 2026",
+      "official": true
+    }
+  },
+  {
+    "id": "HI",
+    "iso": "US-HI",
+    "name": "Hawaii",
+    "capital": "Honolulu",
+    "center": [
+      -139.2861,
+      40.5886
+    ],
+    "flag": "hi",
+    "electoralVotes": 4,
+    "nextElection": {
+      "date": "2026-11-03",
+      "label": "3 Nov 2026",
+      "official": true
+    }
+  },
+  {
+    "id": "ID",
+    "iso": "US-ID",
+    "name": "Idaho",
+    "capital": "Boise",
+    "center": [
+      -114.1443,
+      45.4977
+    ],
+    "flag": "id",
+    "electoralVotes": 4,
+    "nextElection": {
+      "date": "2026-11-03",
+      "label": "3 Nov 2026",
+      "official": true
+    }
+  },
+  {
+    "id": "IL",
+    "iso": "US-IL",
+    "name": "Illinois",
+    "capital": "Springfield",
+    "center": [
+      -89.5008,
+      39.7469
+    ],
+    "flag": "il",
+    "electoralVotes": 19,
+    "nextElection": {
+      "date": "2026-11-03",
+      "label": "3 Nov 2026",
+      "official": true
+    }
+  },
+  {
+    "id": "IN",
+    "iso": "US-IN",
+    "name": "Indiana",
+    "capital": "Indianapolis",
+    "center": [
+      -86.431,
+      39.7743
+    ],
+    "flag": "in",
+    "electoralVotes": 11,
+    "nextElection": {
+      "date": "2026-11-03",
+      "label": "3 Nov 2026",
+      "official": true
+    }
+  },
+  {
+    "id": "IA",
+    "iso": "US-IA",
+    "name": "Iowa",
+    "capital": "Des Moines",
+    "center": [
+      -93.3867,
+      41.9405
+    ],
+    "flag": "ia",
+    "electoralVotes": 6,
+    "nextElection": {
+      "date": "2026-11-03",
+      "label": "3 Nov 2026",
+      "official": true
+    }
+  },
+  {
+    "id": "KS",
+    "iso": "US-KS",
+    "name": "Kansas",
+    "capital": "Topeka",
+    "center": [
+      -98.3323,
+      38.4982
+    ],
+    "flag": "ks",
+    "electoralVotes": 6,
+    "nextElection": {
+      "date": "2026-11-03",
+      "label": "3 Nov 2026",
+      "official": true
+    }
+  },
+  {
+    "id": "KY",
+    "iso": "US-KY",
+    "name": "Kentucky",
+    "capital": "Frankfort",
+    "center": [
+      -85.6943,
+      37.7999
+    ],
+    "flag": "ky",
+    "electoralVotes": 8,
+    "nextElection": {
+      "date": "2026-11-03",
+      "label": "3 Nov 2026",
+      "official": true
+    }
+  },
+  {
+    "id": "LA",
+    "iso": "US-LA",
+    "name": "Louisiana",
+    "capital": "Baton Rouge",
+    "center": [
+      -91.5218,
+      31.014
+    ],
+    "flag": "la",
+    "electoralVotes": 8,
+    "nextElection": {
+      "date": "2026-11-03",
+      "label": "3 Nov 2026",
+      "official": true
+    }
+  },
+  {
+    "id": "ME",
+    "iso": "US-ME",
+    "name": "Maine",
+    "capital": "Augusta",
+    "center": [
+      -69.0307,
+      45.2595
+    ],
+    "flag": "me",
+    "electoralVotes": 4,
+    "nextElection": {
+      "date": "2026-11-03",
+      "label": "3 Nov 2026",
+      "official": true
+    }
+  },
+  {
+    "id": "MD",
+    "iso": "US-MD",
+    "name": "Maryland",
+    "capital": "Annapolis",
+    "center": [
+      -77.268,
+      38.8159
+    ],
+    "flag": "md",
+    "electoralVotes": 10,
+    "nextElection": {
+      "date": "2026-11-03",
+      "label": "3 Nov 2026",
+      "official": true
+    }
+  },
+  {
+    "id": "MA",
+    "iso": "US-MA",
+    "name": "Massachusetts",
+    "capital": "Boston",
+    "center": [
+      -71.7226,
+      42.1924
+    ],
+    "flag": "ma",
+    "electoralVotes": 11,
+    "nextElection": {
+      "date": "2026-11-03",
+      "label": "3 Nov 2026",
+      "official": true
+    }
+  },
+  {
+    "id": "MI",
+    "iso": "US-MI",
+    "name": "Michigan",
+    "capital": "Lansing",
+    "center": [
+      -86.4145,
+      44.9336
+    ],
+    "flag": "mi",
+    "electoralVotes": 15,
+    "nextElection": {
+      "date": "2026-11-03",
+      "label": "3 Nov 2026",
+      "official": true
+    }
+  },
+  {
+    "id": "MN",
+    "iso": "US-MN",
+    "name": "Minnesota",
+    "capital": "Saint Paul",
+    "center": [
+      -93.4223,
+      46.4425
+    ],
+    "flag": "mn",
+    "electoralVotes": 10,
+    "nextElection": {
+      "date": "2026-11-03",
+      "label": "3 Nov 2026",
+      "official": true
+    }
+  },
+  {
+    "id": "MS",
+    "iso": "US-MS",
+    "name": "Mississippi",
+    "capital": "Jackson",
+    "center": [
+      -89.8677,
+      32.5886
+    ],
+    "flag": "ms",
+    "electoralVotes": 6,
+    "nextElection": {
+      "date": "2026-11-03",
+      "label": "3 Nov 2026",
+      "official": true
+    }
+  },
+  {
+    "id": "MO",
+    "iso": "US-MO",
+    "name": "Missouri",
+    "capital": "Jefferson City",
+    "center": [
+      -92.4501,
+      38.3065
+    ],
+    "flag": "mo",
+    "electoralVotes": 10,
+    "nextElection": {
+      "date": "2026-11-03",
+      "label": "3 Nov 2026",
+      "official": true
+    }
+  },
+  {
+    "id": "MT",
+    "iso": "US-MT",
+    "name": "Montana",
+    "capital": "Helena",
+    "center": [
+      -110.0448,
+      46.6972
+    ],
+    "flag": "mt",
+    "electoralVotes": 4,
+    "nextElection": {
+      "date": "2026-11-03",
+      "label": "3 Nov 2026",
+      "official": true
+    }
+  },
+  {
+    "id": "NE",
+    "iso": "US-NE",
+    "name": "Nebraska",
+    "capital": "Lincoln",
+    "center": [
+      -99.6797,
+      41.5023
+    ],
+    "flag": "ne",
+    "electoralVotes": 5,
+    "nextElection": {
+      "date": "2026-11-03",
+      "label": "3 Nov 2026",
+      "official": true
+    }
+  },
+  {
+    "id": "NV",
+    "iso": "US-NV",
+    "name": "Nevada",
+    "capital": "Carson City",
+    "center": [
+      -117.0224,
+      38.5009
+    ],
+    "flag": "nv",
+    "electoralVotes": 6,
+    "nextElection": {
+      "date": "2026-11-03",
+      "label": "3 Nov 2026",
+      "official": true
+    }
+  },
+  {
+    "id": "NH",
+    "iso": "US-NH",
+    "name": "New Hampshire",
+    "capital": "Concord",
+    "center": [
+      -71.624,
+      43.9998
+    ],
+    "flag": "nh",
+    "electoralVotes": 4,
+    "nextElection": {
+      "date": "2026-11-03",
+      "label": "3 Nov 2026",
+      "official": true
+    }
+  },
+  {
+    "id": "NJ",
+    "iso": "US-NJ",
+    "name": "New Jersey",
+    "capital": "Trenton",
+    "center": [
+      -74.7322,
+      40.1769
+    ],
+    "flag": "nj",
+    "electoralVotes": 14,
+    "nextElection": {
+      "date": "2026-11-03",
+      "label": "3 Nov 2026",
+      "official": true
+    }
+  },
+  {
+    "id": "NM",
+    "iso": "US-NM",
+    "name": "New Mexico",
+    "capital": "Santa Fe",
+    "center": [
+      -106.0247,
+      34.1659
+    ],
+    "flag": "nm",
+    "electoralVotes": 5,
+    "nextElection": {
+      "date": "2026-11-03",
+      "label": "3 Nov 2026",
+      "official": true
+    }
+  },
+  {
+    "id": "NY",
+    "iso": "US-NY",
+    "name": "New York",
+    "capital": "Albany",
+    "center": [
+      -75.9317,
+      42.7812
+    ],
+    "flag": "ny",
+    "electoralVotes": 28,
+    "nextElection": {
+      "date": "2026-11-03",
+      "label": "3 Nov 2026",
+      "official": true
+    }
+  },
+  {
+    "id": "NC",
+    "iso": "US-NC",
+    "name": "North Carolina",
+    "capital": "Raleigh",
+    "center": [
+      -80.0175,
+      35.2175
+    ],
+    "flag": "nc",
+    "electoralVotes": 16,
+    "nextElection": {
+      "date": "2026-11-03",
+      "label": "3 Nov 2026",
+      "official": true
+    }
+  },
+  {
+    "id": "ND",
+    "iso": "US-ND",
+    "name": "North Dakota",
+    "capital": "Bismarck",
+    "center": [
+      -100.304,
+      47.4667
+    ],
+    "flag": "nd",
+    "electoralVotes": 3,
+    "nextElection": {
+      "date": "2026-11-03",
+      "label": "3 Nov 2026",
+      "official": true
+    }
+  },
+  {
+    "id": "OH",
+    "iso": "US-OH",
+    "name": "Ohio",
+    "capital": "Columbus",
+    "center": [
+      -82.6683,
+      40.2015
+    ],
+    "flag": "oh",
+    "electoralVotes": 17,
+    "nextElection": {
+      "date": "2026-11-03",
+      "label": "3 Nov 2026",
+      "official": true
+    }
+  },
+  {
+    "id": "OK",
+    "iso": "US-OK",
+    "name": "Oklahoma",
+    "capital": "Oklahoma City",
+    "center": [
+      -98.7157,
+      35.3188
+    ],
+    "flag": "ok",
+    "electoralVotes": 7,
+    "nextElection": {
+      "date": "2026-11-03",
+      "label": "3 Nov 2026",
+      "official": true
+    }
+  },
+  {
+    "id": "OR",
+    "iso": "US-OR",
+    "name": "Oregon",
+    "capital": "Salem",
+    "center": [
+      -120.5085,
+      44.1258
+    ],
+    "flag": "or",
+    "electoralVotes": 8,
+    "nextElection": {
+      "date": "2026-11-03",
+      "label": "3 Nov 2026",
+      "official": true
+    }
+  },
+  {
+    "id": "PA",
+    "iso": "US-PA",
+    "name": "Pennsylvania",
+    "capital": "Harrisburg",
+    "center": [
+      -77.6076,
+      40.9957
+    ],
+    "flag": "pa",
+    "electoralVotes": 19,
+    "nextElection": {
+      "date": "2026-11-03",
+      "label": "3 Nov 2026",
+      "official": true
+    }
+  },
+  {
+    "id": "RI",
+    "iso": "US-RI",
+    "name": "Rhode Island",
+    "capital": "Providence",
+    "center": [
+      -71.4899,
+      41.6694
+    ],
+    "flag": "ri",
+    "electoralVotes": 4,
+    "nextElection": {
+      "date": "2026-11-03",
+      "label": "3 Nov 2026",
+      "official": true
+    }
+  },
+  {
+    "id": "SC",
+    "iso": "US-SC",
+    "name": "South Carolina",
+    "capital": "Columbia",
+    "center": [
+      -80.9403,
+      33.6155
+    ],
+    "flag": "sc",
+    "electoralVotes": 9,
+    "nextElection": {
+      "date": "2026-11-03",
+      "label": "3 Nov 2026",
+      "official": true
+    }
+  },
+  {
+    "id": "SD",
+    "iso": "US-SD",
+    "name": "South Dakota",
+    "capital": "Pierre",
+    "center": [
+      -100.2465,
+      44.2161
+    ],
+    "flag": "sd",
+    "electoralVotes": 3,
+    "nextElection": {
+      "date": "2026-11-03",
+      "label": "3 Nov 2026",
+      "official": true
+    }
+  },
+  {
+    "id": "TN",
+    "iso": "US-TN",
+    "name": "Tennessee",
+    "capital": "Nashville",
+    "center": [
+      -85.9955,
+      35.8309
+    ],
+    "flag": "tn",
+    "electoralVotes": 11,
+    "nextElection": {
+      "date": "2026-11-03",
+      "label": "3 Nov 2026",
+      "official": true
+    }
+  },
+  {
+    "id": "TX",
+    "iso": "US-TX",
+    "name": "Texas",
+    "capital": "Austin",
+    "center": [
+      -100.085,
+      31.1947
+    ],
+    "flag": "tx",
+    "electoralVotes": 40,
+    "nextElection": {
+      "date": "2026-11-03",
+      "label": "3 Nov 2026",
+      "official": true
+    }
+  },
+  {
+    "id": "UT",
+    "iso": "US-UT",
+    "name": "Utah",
+    "capital": "Salt Lake City",
+    "center": [
+      -111.5455,
+      39.5005
+    ],
+    "flag": "ut",
+    "electoralVotes": 6,
+    "nextElection": {
+      "date": "2026-11-03",
+      "label": "3 Nov 2026",
+      "official": true
+    }
+  },
+  {
+    "id": "VT",
+    "iso": "US-VT",
+    "name": "Vermont",
+    "capital": "Montpelier",
+    "center": [
+      -72.4648,
+      43.8711
+    ],
+    "flag": "vt",
+    "electoralVotes": 3,
+    "nextElection": {
+      "date": "2026-11-03",
+      "label": "3 Nov 2026",
+      "official": true
+    }
+  },
+  {
+    "id": "VA",
+    "iso": "US-VA",
+    "name": "Virginia",
+    "capital": "Richmond",
+    "center": [
+      -79.4588,
+      38.0025
+    ],
+    "flag": "va",
+    "electoralVotes": 13,
+    "nextElection": {
+      "date": "2026-11-03",
+      "label": "3 Nov 2026",
+      "official": true
+    }
+  },
+  {
+    "id": "WA",
+    "iso": "US-WA",
+    "name": "Washington",
+    "capital": "Olympia",
+    "center": [
+      -120.8124,
+      47.275
+    ],
+    "flag": "wa",
+    "electoralVotes": 12,
+    "nextElection": {
+      "date": "2026-11-03",
+      "label": "3 Nov 2026",
+      "official": true
+    }
+  },
+  {
+    "id": "WV",
+    "iso": "US-WV",
+    "name": "West Virginia",
+    "capital": "Charleston",
+    "center": [
+      -80.1708,
+      38.9199
+    ],
+    "flag": "wv",
+    "electoralVotes": 4,
+    "nextElection": {
+      "date": "2026-11-03",
+      "label": "3 Nov 2026",
+      "official": true
+    }
+  },
+  {
+    "id": "WI",
+    "iso": "US-WI",
+    "name": "Wisconsin",
+    "capital": "Madison",
+    "center": [
+      -89.9581,
+      44.7255
+    ],
+    "flag": "wi",
+    "electoralVotes": 10,
+    "nextElection": {
+      "date": "2026-11-03",
+      "label": "3 Nov 2026",
+      "official": true
+    }
+  },
+  {
+    "id": "WY",
+    "iso": "US-WY",
+    "name": "Wyoming",
+    "capital": "Cheyenne",
+    "center": [
+      -107.5528,
+      43.0003
+    ],
+    "flag": "wy",
+    "electoralVotes": 3,
+    "nextElection": {
+      "date": "2026-11-03",
+      "label": "3 Nov 2026",
+      "official": true
+    }
+  }
+]
