@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An interactive 3D political map of the United States, with statewide presidential election results and national polling.">
+  <meta name="theme-color" content="#07090d">
+  <title>Political Atlas — United States</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/maplibre-gl@6.10.0/dist/maplibre-gl.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=us-3">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-J8N1Q1GVVB"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag("js", new Date());
+    gtag("config", "G-J8N1Q1GVVB");
+    (function(m,e,t,r,i,k,a){
+      m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+      m[i].l=1*new Date();
+      k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+    })(window, document, "script", "https://mc.yandex.ru/metrika/tag.js?id=105986243", "ym");
+    ym(105986243, "init", {accurateTrackBounce:true, trackLinks:true});
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#state-details">Skip to state details</a>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Political Atlas home"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><b>POLITIKATLAS</b></a>
+      <div class="header-status" aria-live="polite"><span class="live-dot" aria-hidden="true"></span><span id="data-status">Loading local data snapshot…</span></div>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="page-title">
+        <div>
+          <p class="eyebrow">Political landscape · 50 states + DC</p>
+          <h1 id="page-title">United States,<br><span>state by state.</span></h1>
+          <p class="hero-intro">Twelve presidential elections, from 1980 to 2024, plus the next federal election date and a clearly separate national polling signal.</p>
+        </div>
+        <div class="hero-metrics" aria-label="National overview">
+          <div><span id="next-election-countdown">—</span><small>until the 2026 general election</small></div>
+          <div><span id="jurisdiction-count">—</span><small>states and district mapped</small></div>
+          <div><span id="poll-update-date">—</span><small>national poll snapshot</small></div>
+        </div>
+      </section>
+
+      <section class="atlas" aria-label="Interactive political map">
+        <div class="atlas-toolbar">
+          <div class="view-switch" role="group" aria-label="Map view">
+            <button class="view-button is-active" type="button" data-year="2024" aria-pressed="true">2024</button>
+            <button class="view-button" type="button" data-year="2020" aria-pressed="false">2020</button>
+            <button class="view-button" type="button" data-year="2016" aria-pressed="false">2016</button>
+            <button class="view-button" type="button" data-year="2012" aria-pressed="false">2012</button>
+            <button class="view-button" type="button" data-year="2008" aria-pressed="false">2008</button>
+            <button class="view-button" type="button" data-year="2004" aria-pressed="false">2004</button>
+            <button class="view-button" type="button" data-year="2000" aria-pressed="false">2000</button>
+            <button class="view-button" type="button" data-year="1996" aria-pressed="false">1996</button>
+            <button class="view-button" type="button" data-year="1992" aria-pressed="false">1992</button>
+            <button class="view-button" type="button" data-year="1988" aria-pressed="false">1988</button>
+            <button class="view-button" type="button" data-year="1984" aria-pressed="false">1984</button>
+            <button class="view-button" type="button" data-year="1980" aria-pressed="false">1980</button>
+          </div>
+          <p id="view-description">Colour shows the statewide presidential winner. Height shows vote share.</p>
+        </div>
+        <div class="atlas-grid">
+          <div class="map-panel">
+            <div id="map" role="application" aria-label="Interactive map of the United States"></div>
+            <div id="map-legend" class="map-legend" aria-label="Filter map by party"></div>
+            <button id="reset-map" class="map-reset" type="button">Reset 3D</button>
+            <div id="map-tooltip" class="map-tooltip" role="tooltip" hidden></div>
+          </div>
+          <aside id="state-details" class="state-panel" aria-live="polite">
+            <div class="state-identity">
+              <div class="state-flag-frame"><img id="state-flag" class="state-flag" src="assets/flags/pa.svg" alt="Pennsylvania flag"><span id="state-flag-code">US-PA</span></div>
+              <div><p class="eyebrow">STATE / FEDERAL DISTRICT</p><h2 id="state-name">Pennsylvania</h2><p id="state-capital" class="state-capital">Capital · Harrisburg</p></div>
+            </div>
+            <div id="election-alert" class="election-alert"></div>
+            <div class="data-section">
+              <div class="section-heading"><div><p class="section-label">STATE POLLING</p><p class="section-note">Comparable state-level series are not bundled</p></div><span class="date-chip">NATIONAL</span></div>
+              <p class="empty-state">National generic-ballot polling is shown below and is never applied to an individual state.</p>
+            </div>
+            <div class="data-section election-section">
+              <div class="section-heading"><div><p id="election-result-label" class="section-label">2024 PRESIDENTIAL RESULT</p><p id="election-date" class="section-note">—</p></div><span id="electoral-votes" class="date-chip">—</span></div>
+              <div id="election-bars" class="mini-bars"></div>
+              <a id="election-source" class="source-link" href="#" target="_blank" rel="noopener noreferrer">Official result ↗</a>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="overview" aria-labelledby="overview-title">
+        <h2 id="overview-title">All states and D.C. at a glance</h2>
+        <div class="table-wrap"><table><thead><tr><th scope="col">State</th><th id="result-year-heading" scope="col">2024 winner</th><th scope="col">Winning share</th><th scope="col">Next general election</th></tr></thead><tbody id="states-table"></tbody></table></div>
+      </section>
+
+      <section class="party-landscape" aria-labelledby="party-title">
+        <h2 id="party-title">2024 electoral map</h2>
+        <div class="intel-metrics" aria-label="Election summary"><div><span id="democratic-count">—</span><small>jurisdictions won by Democrats</small></div><div><span id="republican-count">—</span><small>jurisdictions won by Republicans</small></div><div><span id="closest-state">—</span><small>closest statewide margin</small></div></div>
+        <div class="table-wrap"><table class="party-table"><thead><tr><th scope="col">Party</th><th scope="col">Nominee</th><th scope="col">States / D.C. won</th><th scope="col">Strongest statewide share</th></tr></thead><tbody id="party-table"></tbody></table></div>
+        <p class="data-caveat">State colour uses the statewide popular-vote winner. Maine and Nebraska’s congressional-district electoral allocations are deliberately not used to colour a state.</p>
+      </section>
+
+      <section class="watch-grid" aria-label="National polling and election schedule">
+        <article class="watch-panel" aria-labelledby="polls-title"><div class="watch-heading"><h2 id="polls-title">National<br>polling tracker.</h2><p id="poll-method">National generic-ballot polling is informative, but not a state forecast.</p></div><div id="national-polls" class="poll-card"></div></article>
+        <article class="watch-panel" aria-labelledby="calendar-title"><div class="watch-heading"><h2 id="calendar-title">Next federal<br>election.</h2><p>The federal general election is held nationwide on the same date.</p></div><div id="election-watch" class="election-watch"></div></article>
+      </section>
+
+      <section class="methodology" aria-labelledby="methodology-title"><h2 id="methodology-title">A record of results, not a forecast.</h2><div class="method-copy"><p>Election data is stored locally with the site and covers statewide presidential popular-vote results from 1980 to 2024. Each state links back to its election authority where a source is available.</p><p>National polling remains explicitly national. It is not converted into invented state-level ratings, and the daily updater writes JSON only when deterministic content changes.</p></div></section>
+    </main>
+
+    <footer><div class="footer-links"><a href="https://www.fec.gov/resources/cms-content/documents/2024presgeresults.pdf" target="_blank" rel="noopener noreferrer">Results: FEC</a><a href="https://www.fec.gov/introduction-campaign-finance/how-to-research-public-records/election-dates/" target="_blank" rel="noopener noreferrer">Federal election dates</a><a href="https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.2023.html" target="_blank" rel="noopener noreferrer">Map: Census-derived boundaries</a><a href="https://flagpedia.net/us-states/download" target="_blank" rel="noopener noreferrer">Flags: public-domain SVGs</a><a href="https://github.com/kusaku/usa-political-map/commit/main" target="_blank" rel="noopener noreferrer">Version: latest commit</a><a href="https://kusaku.su/" target="_blank" rel="noopener noreferrer">by kusaku</a></div></footer>
+  </div>
+  <noscript>This interactive map needs JavaScript enabled.</noscript>
+    <script type="module" src="app.js?v=us-6"></script>
+</body>
+</html>

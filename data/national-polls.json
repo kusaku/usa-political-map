@@ -1,0 +1,27 @@
+{
+  "snapshotDate": "2026-09-14",
+  "methodology": "National generic-ballot polling is shown separately and is never assigned to individual states.",
+  "polls": [
+    {
+      "pollster": "The Economist / YouGov",
+      "date": "2026-09-14",
+      "population": "Likely voters",
+      "question": "2026 generic congressional ballot",
+      "source": "https://yougov.com/en-us/content/the-economist",
+      "results": [
+        {
+          "party": "Democratic",
+          "value": 51
+        },
+        {
+          "party": "Republican",
+          "value": 39
+        },
+        {
+          "party": "Other / undecided",
+          "value": 10
+        }
+      ]
+    }
+  ]
+}
